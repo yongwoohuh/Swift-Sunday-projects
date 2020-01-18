@@ -8,8 +8,9 @@
 
 import UIKit
 
-class FriendViewController: UITableViewController {
-    weak var delegate: ViewController?
+class FriendViewController: UITableViewController, Storyboarded {
+    weak var coordinator: MainCoordinator?
+    
     var friend: Friend!
     
     var timeZones = [TimeZone]()
@@ -49,7 +50,7 @@ class FriendViewController: UITableViewController {
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        delegate?.update(friend: friend)
+        coordinator?.update(friend: friend)
     }
 
     @IBAction func nameChanged(_ sender: UITextField) {

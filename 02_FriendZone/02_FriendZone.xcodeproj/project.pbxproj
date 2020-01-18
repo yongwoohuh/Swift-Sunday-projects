@@ -17,6 +17,9 @@
 		DC68FC9C23D279DF0084D5D3 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68FC9B23D279DF0084D5D3 /* FriendViewController.swift */; };
 		DC68FC9E23D280A40084D5D3 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68FC9D23D280A40084D5D3 /* TextTableViewCell.swift */; };
 		DC68FCA023D292FC0084D5D3 /* Int-TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68FC9F23D292FC0084D5D3 /* Int-TimeFormatting.swift */; };
+		DC68FCA223D29EC40084D5D3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68FCA123D29EC40084D5D3 /* Coordinator.swift */; };
+		DC68FCA423D29F1F0084D5D3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68FCA323D29F1F0084D5D3 /* MainCoordinator.swift */; };
+		DC68FCA623D29FA50084D5D3 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68FCA523D29FA50084D5D3 /* Storyboarded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		DC68FC9B23D279DF0084D5D3 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		DC68FC9D23D280A40084D5D3 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		DC68FC9F23D292FC0084D5D3 /* Int-TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int-TimeFormatting.swift"; sourceTree = "<group>"; };
+		DC68FCA123D29EC40084D5D3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DC68FCA323D29F1F0084D5D3 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		DC68FCA523D29FA50084D5D3 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +71,13 @@
 			isa = PBXGroup;
 			children = (
 				DC68FC8523D274E80084D5D3 /* AppDelegate.swift */,
+				DC68FC8723D274E80084D5D3 /* SceneDelegate.swift */,
 				DC68FC9B23D279DF0084D5D3 /* FriendViewController.swift */,
 				DC68FC9F23D292FC0084D5D3 /* Int-TimeFormatting.swift */,
-				DC68FC8723D274E80084D5D3 /* SceneDelegate.swift */,
 				DC68FC8923D274E80084D5D3 /* ViewController.swift */,
+				DC68FCA123D29EC40084D5D3 /* Coordinator.swift */,
+				DC68FCA323D29F1F0084D5D3 /* MainCoordinator.swift */,
+				DC68FCA523D29FA50084D5D3 /* Storyboarded.swift */,
 				DC68FC9D23D280A40084D5D3 /* TextTableViewCell.swift */,
 				DC68FC9923D275AD0084D5D3 /* Friend.swift */,
 				DC68FC8B23D274E80084D5D3 /* Main.storyboard */,
@@ -150,12 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC68FCA223D29EC40084D5D3 /* Coordinator.swift in Sources */,
 				DC68FC9E23D280A40084D5D3 /* TextTableViewCell.swift in Sources */,
 				DC68FC8A23D274E80084D5D3 /* ViewController.swift in Sources */,
 				DC68FC8623D274E80084D5D3 /* AppDelegate.swift in Sources */,
 				DC68FC8823D274E80084D5D3 /* SceneDelegate.swift in Sources */,
 				DC68FC9A23D275AD0084D5D3 /* Friend.swift in Sources */,
 				DC68FC9C23D279DF0084D5D3 /* FriendViewController.swift in Sources */,
+				DC68FCA623D29FA50084D5D3 /* Storyboarded.swift in Sources */,
+				DC68FCA423D29F1F0084D5D3 /* MainCoordinator.swift in Sources */,
 				DC68FCA023D292FC0084D5D3 /* Int-TimeFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
